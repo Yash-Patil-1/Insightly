@@ -1,0 +1,49 @@
+Date,Description,Category,Amount,Balance,Payment Method,Merchant
+2026-01-02,Salary deposit,Income,75000.00,87500.00,Bank Transfer,Employer
+2026-01-03,Rent payment,Housing,-22000.00,65500.00,UPI,Landlord
+2026-01-04,Grocery shopping,Food & Dining,-3450.00,62050.00,Debit Card,BigBasket
+2026-01-05,Netflix subscription,Entertainment,-499.00,61551.00,Debit Card,Netflix
+2026-01-06,Swiggy order,Food & Dining,-890.00,60661.00,UPI,Swiggy
+2026-01-07,Electricity bill,Utilities,-3200.00,57461.00,Debit Card,Mahadiscom
+2026-01-08,Uber ride,Transport,-450.00,57011.00,UPI,Uber
+2026-01-09,Amazon purchase,Shopping,-2499.00,54512.00,Credit Card,Amazon
+2026-01-10,Mobile recharge,Utilities,-799.00,53713.00,UPI,Jio
+2026-01-12,Dining out,Food & Dining,-1850.00,51863.00,Debit Card,Barbeque Nation
+2026-01-13,Internet bill,Utilities,-1299.00,50564.00,Debit Card,ACT Fibernet
+2026-01-14,Medical checkup,Healthcare,-2500.00,48064.00,Debit Card,Apollo Clinic
+2026-01-15,Zomato order,Food & Dining,-650.00,47414.00,UPI,Zomato
+2026-01-16,Petrol refill,Transport,-3200.00,44214.00,Debit Card,IOCL
+2026-01-18,Insurance premium,Insurance,-5500.00,38714.00,Bank Transfer,LIC
+2026-01-20,Saved investment,Investments,-10000.00,28714.00,Bank Transfer,Mutual Fund
+2026-01-22,Gym membership,Health & Fitness,-1500.00,27214.00,Debit Card,Cult.fit
+2026-01-25,Weekend trip,Travel,-8500.00,18714.00,Credit Card,MakeMyTrip
+2026-01-27,Clothing purchase,Shopping,-3200.00,15514.00,Credit Card,Myntra
+2026-01-28,Phone bill,Utilities,-999.00,14515.00,UPI,Airtel
+2026-01-30,Domestic help,Housing,-3000.00,11515.00,Cash,Househelp
+2026-02-01,Salary deposit,Income,75000.00,86515.00,Bank Transfer,Employer
+2026-02-02,Rent payment,Housing,-22000.00,64515.00,UPI,Landlord
+2026-02-03,Grocery,Food & Dining,-2800.00,61715.00,Debit Card,BigBasket
+2026-02-05,Electricity bill,Utilities,-2900.00,58815.00,Debit Card,Mahadiscom
+2026-02-06,Netflix,Entertainment,-499.00,58316.00,Credit Card,Netflix
+2026-02-07,Amazon shopping,Shopping,-1800.00,56516.00,Debit Card,Amazon
+2026-02-08,Swiggy order,Food & Dining,-1200.00,55316.00,UPI,Swiggy
+2026-02-09,Uber ride,Transport,-560.00,54756.00,UPI,Uber
+2026-02-10,Petrol,Transport,-3100.00,51656.00,Debit Card,HPCL
+2026-02-12,Medical,Healthcare,-800.00,50856.00,Debit Card,Local Pharmacy
+2026-02-13,Internet bill,Utilities,-1299.00,49557.00,Debit Card,ACT Fibernet
+2026-02-14,Dinner date,Food & Dining,-3200.00,46357.00,Credit Card,The Taj
+2026-02-15,Mobile recharge,Utilities,-799.00,45558.00,UPI,Jio
+2026-02-17,Investment SIP,Investments,-10000.00,35558.00,Bank Transfer,Mutual Fund
+2026-02-19,Clothing,Shopping,-4500.00,31058.00,Credit Card,Myntra
+2026-02-20,Insurance,Insurance,-5500.00,25558.00,Bank Transfer,LIC
+2026-02-22,Ola ride,Transport,-780.00,24778.00,UPI,Ola
+2026-02-23,Doctor visit,Healthcare,-2000.00,22778.00,Debit Card,City Hospital
+2026-02-25,Weekend getaway,Travel,-12000.00,10778.00,Credit Card,Goibibo
+2026-02-26,Grocery,Food & Dining,-3200.00,7578.00,Debit Card,BigBasket
+2026-02-27,Gym,Health & Fitness,-1500.00,6078.00,Debit Card,Cult.fit
+2026-02-28,Domestic help,Housing,-3000.00,3078.00,Cash,Househelp
+2026-03-01,Salary deposit,Income,75000.00,78078.00,Bank Transfer,Employer
+2026-03-02,Rent payment,Housing,-22000.00,56078.00,UPI,Landlord
+2026-03-03,Grocery run,Food & Dining,-4100.00,51978.00,Debit Card,BigBasket
+2026-03-04,Netflix,Entertainment,-499.00,51479.00,Debit Card,Netflix
+2026-03-05,Electricity bill,Utilities,-3500.00,47979.00,Debit Card,Mahadiscom

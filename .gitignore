@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Environments
+.env
+.env.*
+venv/
+.venv/
+virtualenv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS
+*.dmg
+*.pkg
+*.deb
+*.exe
+*.msi
+
+# Testing
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+coverage.xml
+*.log
+streamlit_log.txt
