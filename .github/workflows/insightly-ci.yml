@@ -6,10 +6,6 @@ on:
   pull_request:
     branches: [main]
 
-defaults:
-  run:
-    working-directory: Insightly
-
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -54,9 +50,6 @@ jobs:
 
   docs:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: Insightly
     steps:
       - uses: actions/checkout@v4
       - name: Verify documentation files exist
