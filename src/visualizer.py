@@ -45,7 +45,7 @@ def suggest_chart_type(col_data: pd.Series, secondary: Optional[pd.Series] = Non
 
 def _is_categorical(series: pd.Series) -> bool:
     """Check if a series should be treated as categorical."""
-    if pd.api.types.is_object_dtype(series) or isinstance(series.dtype, pd.CategoricalDtype):
+    if pd.api.types.is_object_dtype(series) or isinstance(series.dtype, pd.CategoricalDtype) or pd.api.types.is_string_dtype(series):
         return True
     if pd.api.types.is_numeric_dtype(series) and series.nunique() <= 10:
         return True

@@ -70,7 +70,7 @@ def profile_column(series: pd.Series) -> Dict[str, Any]:
             })
 
     # Categorical stats
-    if pd.api.types.is_object_dtype(series) or isinstance(series.dtype, pd.CategoricalDtype):
+    if pd.api.types.is_object_dtype(series) or isinstance(series.dtype, pd.CategoricalDtype) or pd.api.types.is_string_dtype(series):
         non_null = series.dropna()
         if len(non_null) > 0:
             value_counts = non_null.value_counts()
@@ -110,7 +110,7 @@ def _infer_type(series: pd.Series) -> str:
         if series.nunique() <= 10:
             return "Categorical (Numeric)"
         return "Numeric"
-    if pd.api.types.is_object_dtype(series):
+    if pd.api.types.is_object_dtype(series) or pd.api.types.is_string_dtype(series):
         nunique = series.nunique()
         total = series.count()
         if total > 0 and nunique / total < 0.05:

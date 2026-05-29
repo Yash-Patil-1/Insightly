@@ -32,7 +32,7 @@ def detect_issues(df: pd.DataFrame) -> Dict[str, list]:
 
     # Type issues (mixed types, object columns that look numeric)
     for col in df.columns:
-        if pd.api.types.is_object_dtype(df[col]):
+        if pd.api.types.is_object_dtype(df[col]) or pd.api.types.is_string_dtype(df[col]):
             numeric_ratio = df[col].dropna().astype(str).str.match(r"^-?\d+\.?\d*$").mean()
             if numeric_ratio > 0.8 and numeric_ratio < 1.0:
                 issues["types"].append({
@@ -117,7 +117,7 @@ def clean_dataframe(
     # 3. Fix types (convert object -> numeric/datetime where possible)
     if fix_types:
         for col in cols:
-            if pd.api.types.is_object_dtype(cleaned[col]):
+            if pd.api.types.is_object_dtype(cleaned[col]) or pd.api.types.is_string_dtype(cleaned[col]):
                 # Try numeric
                 try:
                     converted = pd.to_numeric(cleaned[col], errors="coerce")
